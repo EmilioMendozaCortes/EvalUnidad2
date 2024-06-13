@@ -3,7 +3,7 @@ import LoginView from '../components/Login.vue'
 import RegisterUserView from '../components/RegisterUser.vue'
 import MenuView from '../components/Menu.vue'
 import dashboardView from '../components/dashboard.vue'
-import UsuarioView from '../components/Usuario.vue'
+// import UsuarioView from '../components/Usuario.vue'
 import PersonaView from '../components/Persona.vue'
 import HomeView from '../components/Home.vue'
 import DietaView from '../components/Dietas.vue'
@@ -34,7 +34,9 @@ const router = createRouter({
         {path: '/dieta', name: 'dieta', component:DietaView},
         {path: '/indicadorNutricional', name: 'indicadorNutricional', component:IndicadorNView},
         {path: '/preguntaNutricional', name: 'preguntaNutricional', component:PreguntaNView},
-        {path: '/valoracionNutricional', name: 'valoracionNutricional', component:ValoracionNView}
+        {path: '/valoracionNutricional', name: 'valoracionNutricional', component:ValoracionNView},
+        {path: '/piePagina', name: 'piePagina', component:Pie}
+
       ]
     },
     // {
